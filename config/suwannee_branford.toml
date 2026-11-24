@@ -1,0 +1,17 @@
+# Код USGS храним строкой, чтобы сохранить ведущий ноль.
+[station]
+code = "02320500"
+name = "Suwannee River at Branford, Florida"
+river = "Suwannee"
+latitude = 29.955785012958
+longitude = -82.9276277589354
+# Фиксированный EST (UTC−5). В именах Etc/GMT знак обратный.
+timezone = "Etc/GMT+5"
+
+[dataset]
+start = "2008-01-01"
+end = "2023-12-31"
+holdout_start = "2023-01-01"
+horizon_days = 1
+weather_delay_days = 5
+seed = 42
